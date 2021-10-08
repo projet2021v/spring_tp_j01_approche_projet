@@ -20,6 +20,36 @@ public class Personne {
 		this.prenom = prenom;
 		this.adressePostale = adressePostale;
 	}
+	
+	
+	public void afficherNomMajusculePrenomMinuscule() {
+		System.out.println(this.getNom().toUpperCase() + " " + this.getPrenom());
+	}
+	
+	public void modifierNom(String nouveauNom) {
+		this.setNom(nouveauNom);
+	}
+	
+	public void modifierPrenom(String nouveauPrenom) {
+		this.setPrenom(nouveauPrenom);
+	}
+	
+	public void modifierAdressePostale(AdressePostale nouvelleAdressePostale) {
+		this.setAdressePostale(nouvelleAdressePostale);
+	}
+	
+	public String retournerNom() {
+		return this.getNom();
+	}
+	
+	public String retournerPrenom() {
+		return this.getPrenom();
+	}
+	
+	public AdressePostale retournerAdresse() {
+		return this.getAdressePostale();
+	}
+	
 
 	public String getNom() {
 		return nom;
