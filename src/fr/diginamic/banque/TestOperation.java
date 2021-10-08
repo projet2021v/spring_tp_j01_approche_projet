@@ -31,17 +31,17 @@ public class TestOperation {
 	public static double calculMontantGlobal(Operation[] tab) {
 		final String CREDIT = "CREDIT";
 		final String DEBIT = "DEBIT";
-		double montantTotal = 0;
+		double montantGlobal = 0;
 		
 		for(Operation o : tab) {
 			if(CREDIT.equals(o.getType())) {
-				montantTotal += o.getMontantOperation();
+				montantGlobal += o.getMontantOperation();
 			} else if (DEBIT.equals(o.getType())) {
-				montantTotal -= o.getMontantOperation();
+				montantGlobal -= o.getMontantOperation();
 			}
 		}
 		
-		return montantTotal;
+		return montantGlobal;
 	}
 
 }
