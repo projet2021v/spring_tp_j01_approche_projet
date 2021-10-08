@@ -1,0 +1,5 @@
+7) Prise de recul : 
+Que pensez-vous du nombre de lignes de code nécessaires pour instancier (i.e. créer) une personne ?
+
+Il me faut 1 ligne de code pour instancier une Personne (ex TestPersonne.java ligne 8). 
+Cela me semble raisonnable.
