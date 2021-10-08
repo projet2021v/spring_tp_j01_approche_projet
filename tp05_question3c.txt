@@ -1,0 +1,3 @@
+3) c. Que constatez-vous ?
+
+Je constate que les valeurs des attributs de mon instance s'affichent bien.
