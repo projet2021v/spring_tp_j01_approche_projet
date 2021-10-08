@@ -4,10 +4,10 @@ public class Compte {
 	private String numeroCompte;
 	private double soldeCompte;
 	
-	public Compte(String numeroCompte, double soldecompte) {
+	public Compte(String numeroCompte, double soldeCompte) {
 		super();
 		this.numeroCompte = numeroCompte;
-		this.soldeCompte = soldecompte;
+		this.soldeCompte = soldeCompte;
 	}
 
 	public String getNumeroCompte() {
