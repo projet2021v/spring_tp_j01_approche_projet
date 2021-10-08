@@ -1,0 +1,2 @@
+J'avais déjà redéfini la méthode toString() dans le tp05, 
+d'où le résultat correct déjà dans le tp05.
